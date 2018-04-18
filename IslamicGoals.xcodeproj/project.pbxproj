@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEDDA5E2087C54E000133B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA5D2087C54E000133B1 /* AppDelegate.swift */; };
+		CAEDDA602087C54E000133B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA5F2087C54E000133B1 /* ViewController.swift */; };
+		CAEDDA632087C54E000133B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEDDA612087C54E000133B1 /* Main.storyboard */; };
+		CAEDDA652087C54E000133B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEDDA642087C54E000133B1 /* Assets.xcassets */; };
+		CAEDDA682087C54E000133B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEDDA662087C54E000133B1 /* LaunchScreen.storyboard */; };
+		CAEDDA732087C54E000133B1 /* IslamicGoalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA722087C54E000133B1 /* IslamicGoalsTests.swift */; };
+		CAEDDA7E2087C54E000133B1 /* IslamicGoalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA7D2087C54E000133B1 /* IslamicGoalsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEDDA6F2087C54E000133B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEDDA522087C54E000133B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEDDA592087C54E000133B1;
+			remoteInfo = IslamicGoals;
+		};
+		CAEDDA7A2087C54E000133B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEDDA522087C54E000133B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEDDA592087C54E000133B1;
+			remoteInfo = IslamicGoals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAEDDA5A2087C54E000133B1 /* IslamicGoals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamicGoals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEDDA5D2087C54E000133B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAEDDA5F2087C54E000133B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAEDDA622087C54E000133B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEDDA642087C54E000133B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEDDA672087C54E000133B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAEDDA692087C54E000133B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEDDA6E2087C54E000133B1 /* IslamicGoalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslamicGoalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEDDA722087C54E000133B1 /* IslamicGoalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicGoalsTests.swift; sourceTree = "<group>"; };
+		CAEDDA742087C54E000133B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEDDA792087C54E000133B1 /* IslamicGoalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslamicGoalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEDDA7D2087C54E000133B1 /* IslamicGoalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicGoalsUITests.swift; sourceTree = "<group>"; };
+		CAEDDA7F2087C54E000133B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEDDA572087C54E000133B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDDA6B2087C54E000133B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDDA762087C54E000133B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEDDA512087C54E000133B1 = {
+			isa = PBXGroup;
+			children = (
+				CAEDDA5C2087C54E000133B1 /* IslamicGoals */,
+				CAEDDA712087C54E000133B1 /* IslamicGoalsTests */,
+				CAEDDA7C2087C54E000133B1 /* IslamicGoalsUITests */,
+				CAEDDA5B2087C54E000133B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEDDA5B2087C54E000133B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDDA5A2087C54E000133B1 /* IslamicGoals.app */,
+				CAEDDA6E2087C54E000133B1 /* IslamicGoalsTests.xctest */,
+				CAEDDA792087C54E000133B1 /* IslamicGoalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEDDA5C2087C54E000133B1 /* IslamicGoals */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDDA5D2087C54E000133B1 /* AppDelegate.swift */,
+				CAEDDA5F2087C54E000133B1 /* ViewController.swift */,
+				CAEDDA612087C54E000133B1 /* Main.storyboard */,
+				CAEDDA642087C54E000133B1 /* Assets.xcassets */,
+				CAEDDA662087C54E000133B1 /* LaunchScreen.storyboard */,
+				CAEDDA692087C54E000133B1 /* Info.plist */,
+			);
+			path = IslamicGoals;
+			sourceTree = "<group>";
+		};
+		CAEDDA712087C54E000133B1 /* IslamicGoalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDDA722087C54E000133B1 /* IslamicGoalsTests.swift */,
+				CAEDDA742087C54E000133B1 /* Info.plist */,
+			);
+			path = IslamicGoalsTests;
+			sourceTree = "<group>";
+		};
+		CAEDDA7C2087C54E000133B1 /* IslamicGoalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDDA7D2087C54E000133B1 /* IslamicGoalsUITests.swift */,
+				CAEDDA7F2087C54E000133B1 /* Info.plist */,
+			);
+			path = IslamicGoalsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEDDA592087C54E000133B1 /* IslamicGoals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDDA822087C54E000133B1 /* Build configuration list for PBXNativeTarget "IslamicGoals" */;
+			buildPhases = (
+				CAEDDA562087C54E000133B1 /* Sources */,
+				CAEDDA572087C54E000133B1 /* Frameworks */,
+				CAEDDA582087C54E000133B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IslamicGoals;
+			productName = IslamicGoals;
+			productReference = CAEDDA5A2087C54E000133B1 /* IslamicGoals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEDDA6D2087C54E000133B1 /* IslamicGoalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDDA852087C54E000133B1 /* Build configuration list for PBXNativeTarget "IslamicGoalsTests" */;
+			buildPhases = (
+				CAEDDA6A2087C54E000133B1 /* Sources */,
+				CAEDDA6B2087C54E000133B1 /* Frameworks */,
+				CAEDDA6C2087C54E000133B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEDDA702087C54E000133B1 /* PBXTargetDependency */,
+			);
+			name = IslamicGoalsTests;
+			productName = IslamicGoalsTests;
+			productReference = CAEDDA6E2087C54E000133B1 /* IslamicGoalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAEDDA782087C54E000133B1 /* IslamicGoalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDDA882087C54E000133B1 /* Build configuration list for PBXNativeTarget "IslamicGoalsUITests" */;
+			buildPhases = (
+				CAEDDA752087C54E000133B1 /* Sources */,
+				CAEDDA762087C54E000133B1 /* Frameworks */,
+				CAEDDA772087C54E000133B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEDDA7B2087C54E000133B1 /* PBXTargetDependency */,
+			);
+			name = IslamicGoalsUITests;
+			productName = IslamicGoalsUITests;
+			productReference = CAEDDA792087C54E000133B1 /* IslamicGoalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEDDA522087C54E000133B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Hamza Lakhani";
+				TargetAttributes = {
+					CAEDDA592087C54E000133B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CAEDDA6D2087C54E000133B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAEDDA592087C54E000133B1;
+					};
+					CAEDDA782087C54E000133B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAEDDA592087C54E000133B1;
+					};
+				};
+			};
+			buildConfigurationList = CAEDDA552087C54E000133B1 /* Build configuration list for PBXProject "IslamicGoals" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEDDA512087C54E000133B1;
+			productRefGroup = CAEDDA5B2087C54E000133B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEDDA592087C54E000133B1 /* IslamicGoals */,
+				CAEDDA6D2087C54E000133B1 /* IslamicGoalsTests */,
+				CAEDDA782087C54E000133B1 /* IslamicGoalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEDDA582087C54E000133B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDDA682087C54E000133B1 /* LaunchScreen.storyboard in Resources */,
+				CAEDDA652087C54E000133B1 /* Assets.xcassets in Resources */,
+				CAEDDA632087C54E000133B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDDA6C2087C54E000133B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDDA772087C54E000133B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEDDA562087C54E000133B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDDA602087C54E000133B1 /* ViewController.swift in Sources */,
+				CAEDDA5E2087C54E000133B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDDA6A2087C54E000133B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDDA732087C54E000133B1 /* IslamicGoalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEDDA752087C54E000133B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEDDA7E2087C54E000133B1 /* IslamicGoalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEDDA702087C54E000133B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEDDA592087C54E000133B1 /* IslamicGoals */;
+			targetProxy = CAEDDA6F2087C54E000133B1 /* PBXContainerItemProxy */;
+		};
+		CAEDDA7B2087C54E000133B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEDDA592087C54E000133B1 /* IslamicGoals */;
+			targetProxy = CAEDDA7A2087C54E000133B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEDDA612087C54E000133B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEDDA622087C54E000133B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEDDA662087C54E000133B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEDDA672087C54E000133B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEDDA802087C54E000133B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAEDDA812087C54E000133B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEDDA832087C54E000133B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNELUUJWJ;
+				INFOPLIST_FILE = IslamicGoals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzalakhani.IslamicGoals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAEDDA842087C54E000133B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNELUUJWJ;
+				INFOPLIST_FILE = IslamicGoals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzalakhani.IslamicGoals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAEDDA862087C54E000133B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNELUUJWJ;
+				INFOPLIST_FILE = IslamicGoalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzalakhani.IslamicGoalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslamicGoals.app/IslamicGoals";
+			};
+			name = Debug;
+		};
+		CAEDDA872087C54E000133B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNELUUJWJ;
+				INFOPLIST_FILE = IslamicGoalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzalakhani.IslamicGoalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslamicGoals.app/IslamicGoals";
+			};
+			name = Release;
+		};
+		CAEDDA892087C54E000133B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNELUUJWJ;
+				INFOPLIST_FILE = IslamicGoalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzalakhani.IslamicGoalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IslamicGoals;
+			};
+			name = Debug;
+		};
+		CAEDDA8A2087C54E000133B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNELUUJWJ;
+				INFOPLIST_FILE = IslamicGoalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzalakhani.IslamicGoalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IslamicGoals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEDDA552087C54E000133B1 /* Build configuration list for PBXProject "IslamicGoals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDDA802087C54E000133B1 /* Debug */,
+				CAEDDA812087C54E000133B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEDDA822087C54E000133B1 /* Build configuration list for PBXNativeTarget "IslamicGoals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDDA832087C54E000133B1 /* Debug */,
+				CAEDDA842087C54E000133B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEDDA852087C54E000133B1 /* Build configuration list for PBXNativeTarget "IslamicGoalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDDA862087C54E000133B1 /* Debug */,
+				CAEDDA872087C54E000133B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEDDA882087C54E000133B1 /* Build configuration list for PBXNativeTarget "IslamicGoalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEDDA892087C54E000133B1 /* Debug */,
+				CAEDDA8A2087C54E000133B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEDDA522087C54E000133B1 /* Project object */;
+}
