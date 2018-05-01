@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CAEDDA5E2087C54E000133B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA5D2087C54E000133B1 /* AppDelegate.swift */; };
-		CAEDDA602087C54E000133B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA5F2087C54E000133B1 /* ViewController.swift */; };
 		CAEDDA632087C54E000133B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEDDA612087C54E000133B1 /* Main.storyboard */; };
 		CAEDDA652087C54E000133B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEDDA642087C54E000133B1 /* Assets.xcassets */; };
 		CAEDDA682087C54E000133B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEDDA662087C54E000133B1 /* LaunchScreen.storyboard */; };
 		CAEDDA732087C54E000133B1 /* IslamicGoalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA722087C54E000133B1 /* IslamicGoalsTests.swift */; };
 		CAEDDA7E2087C54E000133B1 /* IslamicGoalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA7D2087C54E000133B1 /* IslamicGoalsUITests.swift */; };
+		CAEDDA922097A389000133B1 /* ReminderCardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA912097A389000133B1 /* ReminderCardsController.swift */; };
+		CAEDDA942097B354000133B1 /* ReminderCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA932097B354000133B1 /* ReminderCardCell.swift */; };
+		CAEDDA982097F85E000133B1 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA972097F85E000133B1 /* WalkthroughViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		CAEDDA5A2087C54E000133B1 /* IslamicGoals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamicGoals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEDDA5D2087C54E000133B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAEDDA5F2087C54E000133B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAEDDA622087C54E000133B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAEDDA642087C54E000133B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAEDDA672087C54E000133B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		CAEDDA792087C54E000133B1 /* IslamicGoalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslamicGoalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEDDA7D2087C54E000133B1 /* IslamicGoalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicGoalsUITests.swift; sourceTree = "<group>"; };
 		CAEDDA7F2087C54E000133B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEDDA912097A389000133B1 /* ReminderCardsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCardsController.swift; sourceTree = "<group>"; };
+		CAEDDA932097B354000133B1 /* ReminderCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCardCell.swift; sourceTree = "<group>"; };
+		CAEDDA972097F85E000133B1 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				CAEDDA5D2087C54E000133B1 /* AppDelegate.swift */,
-				CAEDDA5F2087C54E000133B1 /* ViewController.swift */,
 				CAEDDA612087C54E000133B1 /* Main.storyboard */,
+				CAEDDA992097F868000133B1 /* Walkthrough */,
+				CAEDDA952097F810000133B1 /* ReminderCards */,
 				CAEDDA642087C54E000133B1 /* Assets.xcassets */,
 				CAEDDA662087C54E000133B1 /* LaunchScreen.storyboard */,
 				CAEDDA692087C54E000133B1 /* Info.plist */,
@@ -123,6 +128,23 @@
 				CAEDDA7F2087C54E000133B1 /* Info.plist */,
 			);
 			path = IslamicGoalsUITests;
+			sourceTree = "<group>";
+		};
+		CAEDDA952097F810000133B1 /* ReminderCards */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDDA912097A389000133B1 /* ReminderCardsController.swift */,
+				CAEDDA932097B354000133B1 /* ReminderCardCell.swift */,
+			);
+			path = ReminderCards;
+			sourceTree = "<group>";
+		};
+		CAEDDA992097F868000133B1 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				CAEDDA972097F85E000133B1 /* WalkthroughViewController.swift */,
+			);
+			path = Walkthrough;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAEDDA602087C54E000133B1 /* ViewController.swift in Sources */,
+				CAEDDA942097B354000133B1 /* ReminderCardCell.swift in Sources */,
+				CAEDDA982097F85E000133B1 /* WalkthroughViewController.swift in Sources */,
 				CAEDDA5E2087C54E000133B1 /* AppDelegate.swift in Sources */,
+				CAEDDA922097A389000133B1 /* ReminderCardsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
