@@ -38,10 +38,30 @@ class WalkthroughViewController: UIViewController {
     //encsapsulated so outside classes cant intefere
     private  let previousButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Prev", for: .normal)
+        button.setTitle("PREV", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
+        button.setTitleColor(.gray, for: .normal)
+        return button
+    }()
+    
+    private  let nextButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("NEXT ", for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
+        button.setTitleColor(.gray, for: .normal)
 
         return button
+    }()
+    
+    private let pageControl: UIPageControl = {
+        let pc = UIPageControl()
+        pc.currentPage  = 0
+        pc.numberOfPages  = 4
+        pc.currentPageIndicatorTintColor = .green
+        pc.pageIndicatorTintColor = .gray
+        return pc
     }()
     
     override func viewDidLoad() {
@@ -83,20 +103,20 @@ private func setupLayout() {
     
     fileprivate func setupBottomContols(){
 //        view.addSubview(previousButton)
-        previousButton.backgroundColor = .red
+//        previousButton.backgroundColor = .red
 //        previousButton.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         
         
-        let yellowView = UIView()
-        yellowView.backgroundColor = .yellow
+//        let yellowView = UIView()
+//        yellowView.backgroundColor = .yellow
         
-        let greenView = UIView()
-        greenView.backgroundColor = .green
+//        let greenView = UIView()
+//        greenView.backgroundColor = .green
         
-        let blueView = UIView()
-        blueView.backgroundColor = .blue
+//        let blueView = UIView()
+//        blueView.backgroundColor = .blue
         
-        let bottomControlsStackView = UIStackView(arrangedSubviews: [yellowView, blueView])
+        let bottomControlsStackView = UIStackView(arrangedSubviews: [previousButton, pageControl, nextButton])
         
         bottomControlsStackView.translatesAutoresizingMaskIntoConstraints = false
         bottomControlsStackView.distribution = .fillEqually
