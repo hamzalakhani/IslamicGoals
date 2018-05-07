@@ -82,16 +82,12 @@ class WalkthroughViewController: UIViewController {
 
 private func setupLayout() {
     
-//    let topImageContainerView = UIView()
-//    topImageContainerView.backgroundColor = .blue
-//    view.addSubview(topImageContainerView)
-//    topImageContainerView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+
     iGImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     iGImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 100).isActive = true
     iGImageView.widthAnchor.constraint(equalToConstant: 200).isActive = true
     iGImageView.heightAnchor.constraint(equalToConstant: 300).isActive = true
     
-    //textview
     introductionTextView.topAnchor.constraint(equalTo: iGImageView.bottomAnchor, constant: 50).isActive = true
     introductionTextView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 24).isActive = true
     //right anchor always a negative value

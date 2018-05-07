@@ -14,7 +14,7 @@ class SwipeController: UICollectionViewController, UICollectionViewDelegateFlowL
         super.viewDidLoad()
         
         collectionView?.backgroundColor = .white
-        collectionView?.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cellId")
+        collectionView?.register(PageCell.self, forCellWithReuseIdentifier: "cellId")
         collectionView?.isPagingEnabled = true
         
     }
@@ -31,7 +31,12 @@ class SwipeController: UICollectionViewController, UICollectionViewDelegateFlowL
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath)
-        cell.backgroundColor = indexPath.item % 2 == 0 ? .red : .green
+        
+        
+        //never do this
+//        let imageView = = UIImageView()
+//        cell.addSubview(imageView)
+//        cell.backgroundColor = indexPath.item % 2 == 0 ? .red : .green
     
         return cell
     }

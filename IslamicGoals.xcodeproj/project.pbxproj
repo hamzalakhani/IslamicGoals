@@ -17,6 +17,7 @@
 		CAEDDA942097B354000133B1 /* ReminderCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA932097B354000133B1 /* ReminderCardCell.swift */; };
 		CAEDDA982097F85E000133B1 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA972097F85E000133B1 /* WalkthroughViewController.swift */; };
 		CAEDDA9B20994F79000133B1 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA9A20994F79000133B1 /* SwipingController.swift */; };
+		CAEDDA9D209A77C4000133B1 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDDA9C209A77C4000133B1 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CAEDDA932097B354000133B1 /* ReminderCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCardCell.swift; sourceTree = "<group>"; };
 		CAEDDA972097F85E000133B1 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
 		CAEDDA9A20994F79000133B1 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		CAEDDA9C209A77C4000133B1 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				CAEDDA972097F85E000133B1 /* WalkthroughViewController.swift */,
 				CAEDDA9A20994F79000133B1 /* SwipingController.swift */,
+				CAEDDA9C209A77C4000133B1 /* PageCell.swift */,
 			);
 			path = Walkthrough;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				CAEDDA942097B354000133B1 /* ReminderCardCell.swift in Sources */,
 				CAEDDA982097F85E000133B1 /* WalkthroughViewController.swift in Sources */,
+				CAEDDA9D209A77C4000133B1 /* PageCell.swift in Sources */,
 				CAEDDA5E2087C54E000133B1 /* AppDelegate.swift in Sources */,
 				CAEDDA9B20994F79000133B1 /* SwipingController.swift in Sources */,
 				CAEDDA922097A389000133B1 /* ReminderCardsController.swift in Sources */,
